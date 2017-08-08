@@ -1,0 +1,21 @@
+<dotnetbar>
+  <items />
+  <bars />
+  <popups>
+    <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bRichPopup" text="Rich Edit Popup" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="0" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" PopupType="0" PopupWidth="200" PersonalizedMenus="0" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+      <subitems>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bCut" text="Cu&amp;t" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="0" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" PopupType="0" PopupWidth="200" PersonalizedMenus="0" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+          <images imageindex="0" />
+        </item>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bCopy" text="&amp;Copy" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="0" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" PopupType="0" PopupWidth="200" PersonalizedMenus="0" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+          <images imageindex="1" />
+        </item>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bPaste" text="&amp;Paste" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="0" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" PopupType="0" PopupWidth="200" PersonalizedMenus="0" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+          <images imageindex="2" />
+        </item>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bDelete" text="&amp;Delete" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="0" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" PopupType="0" PopupWidth="200" PersonalizedMenus="0" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false" />
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bSelectAll" text="Select &amp;All" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="true" style="0" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" PopupType="0" PopupWidth="200" PersonalizedMenus="0" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false" />
+      </subitems>
+    </item>
+  </popups>
+</dotnetbar>

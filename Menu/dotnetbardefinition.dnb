@@ -1,0 +1,36 @@
+<dotnetbar>
+  <items />
+  <bars>
+    <bar name="mainmenu" candockleft="true" candockright="true" candocktop="true" candockbottom="true" text="Main Menu" dockline="0" dockoffset="0" barstate="2" grabhandle="0" menubar="true" stretch="true" style="0" state="2" wrapdock="false" wrapfloat="true" dockside="3" visible="true" custom="false" canhide="false">
+      <items>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="item_50" text="&amp;File" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="0" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" PopupType="0" PopupWidth="200" PersonalizedMenus="0" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+          <subitems>
+            <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="mNew" text="&amp;New" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="0" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" shortcuts="131150" PopupType="0" PopupWidth="200" PersonalizedMenus="0" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+              <subitems>
+                <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="mTextFile" text="&amp;Text File" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="0" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" PopupType="0" PopupWidth="200" PersonalizedMenus="0" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false" />
+                <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="mXMLDocument" text="&amp;XML Document" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="0" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" PopupType="0" PopupWidth="200" PersonalizedMenus="0" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false" />
+                <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="mHTMLDocument" text="&amp;HTML Document" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="0" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" PopupType="0" PopupWidth="200" PersonalizedMenus="0" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false" />
+              </subitems>
+              <images>
+                <image type="default">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAERJREFUOE9jYBhM4D/QMfgwQbf+xwWQDMZrCF4DQJJQg3AaQowL8BqC0wBkCXyuGDUAmIiIAYM8EAnkBeR8QjBfEK0AAPk5mHZ+ftUYAAAAAElFTkSuQmCC</image>
+              </images>
+            </item>
+            <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="mOpen" text="&amp;Open" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="0" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" shortcuts="131151" PopupType="0" PopupWidth="200" PersonalizedMenus="0" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+              <images>
+                <image type="default">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAHVJREFUOE+9UgEKwCAI9On93OWaola4azBBovLOO5Hop+DeRxNuKUAfes/vEPGkBpE41TIz9ZQwn76oJDewkqzOZ4hLn0HBjqQgGPJf2sj2BBjBrRFX6RWFzhVQ/rMdm/4JWKZ6M56CjcDt+m4HPq0utOdQ8QUbX+81+ZxpdQAAAABJRU5ErkJg</image>
+              </images>
+            </item>
+            <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="mExit" text="&amp;Exit" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="true" style="0" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" shortcuts="131160" PopupType="0" PopupWidth="200" PersonalizedMenus="0" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false" />
+          </subitems>
+        </item>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="item_55" text="&amp;Help" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="0" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" PopupType="0" PopupWidth="200" PersonalizedMenus="0" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+          <subitems>
+            <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="mAbout" text="&amp;About" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="0" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" shortcuts="112" PopupType="0" PopupWidth="200" PersonalizedMenus="0" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false" />
+          </subitems>
+        </item>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="mSwitch" text="Switch Style" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="0" desc="" tooltip="" category="" cancustomize="true" showsubitems="false" itemalignment="1" PopupType="0" PopupWidth="200" PersonalizedMenus="0" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false" />
+      </items>
+    </bar>
+  </bars>
+  <popups />
+</dotnetbar>

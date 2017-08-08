@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+            Microsoft ResX Schema 
+        
+            Version 1.3
+                
+            The primary goals of this format is to allow a simple XML format 
+            that is mostly human readable. The generation and parsing of the 
+            various data types are done through the TypeConverter classes 
+            associated with the data types.
+        
+            Example:
+        
+                ... ado.net/XML headers & schema ...
+                <resheader name="resmimetype">text/microsoft-resx</resheader>
+                <resheader name="version">1.3</resheader>
+                <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+                <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+                <data name="Name1">this is my long string</data>
+                <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+                <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+                    [base64 mime encoded serialized .NET Framework object]
+                </data>
+                <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+                    [base64 mime encoded string representing a byte array form of the .NET Framework object]
+                </data>
+        
+            There are any number of "resheader" rows that contain simple 
+            name/value pairs.
+            
+            Each data row contains a name, and value. The row also contains a 
+            type or mimetype. Type corresponds to a .NET class that support 
+            text/value conversion through the TypeConverter architecture. 
+            Classes that don't support this are serialized and stored with the 
+            mimetype set.
+                     
+            The mimetype is used for serialized objects, and tells the 
+            ResXResourceReader how to depersist the object. This is currently not 
+            extensible. For a given mimetype the value must be set accordingly:
+        
+            Note - application/x-microsoft.net.object.binary.base64 is the format 
+                   that the ResXResourceWriter will generate, however the reader can 
+                   read any of the formats listed below.
+        
+            mimetype: application/x-microsoft.net.object.binary.base64
+            value   : The object must be serialized with 
+                    : System.Serialization.Formatters.Binary.BinaryFormatter
+                    : and then encoded with base64 encoding.
+        
+            mimetype: application/x-microsoft.net.object.soap.base64
+            value   : The object must be serialized with 
+                    : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+                    : and then encoded with base64 encoding.
+            mimetype: application/x-microsoft.net.object.bytearray.base64
+            value   : The object must be serialized into a byte array 
+                    : using a System.ComponentModel.TypeConverter
+                    : and then encoded with base64 encoding.
+        -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="panelEx1.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="panelEx2.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="panelEx2.Style.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAwBJREFUOE9tk2tI
+        k2sAxzd1upWbm5fedBfX1kWdNddKMZfpylJDI82M1jhHz4pKrKygeyF0o6u1SijpqiFWUhR0+1BU3wKp
+        T0VB58Pxgyc661CBUbFfz7uWXR/48/Jc/j/+//d9HwWg+N2IibeVuDKyuo0G+yaxrxeK++3BnwEGnWny
+        CL3tcOtMN082T6XHX0BCwshdwmwUiv0F8hWg1WltdkPxTau27P+dlS44Pw3aS6HDy5XFheFkjeGIMGf8
+        kkQGjEuZ2VYltXLIGuK8HQLGC/Q0ZMMZLwSL6ao145vTyLDhlmA0ybc6MmCidhEnpI90joXTAtA9Cham
+        dlKba+bP0grcLdeouf6asm3X0SVoD0aTfKkjA3I01YMNimu0SSGCpvc06/uoc9fjyhqBq6mXQD80PhLJ
+        nkH+sothnSb90FAdGeAYNk8AblCv7GXZ1JVsazUT/s8jtkppb3Xj2XqX2vtQfA6cHWB2NocFoEIoJZLA
+        ahg3OEu1nRJFF2vdanjqhnAZhMRLHPBwoMqBOfAAxzFwdYJpwvKPwtwiZI8AGu3SYE+hFkvsKlbb0mGe
+        WL6VB1cF4Ph0rtabSa27jfO4MM+/gpRZLQO2CGVHAP5R5k/4FOzJS2TFGAnmiuU6PRyZDqe8XPY50Fga
+        yKncR9OO/ThyS2TAZqGsCKDcaOn/UBvDm8oY0lLG0+VOgqV63u72cCfgxmEZz4L1W2h/9oDLhCiq8P8I
+        SFBLJX5r+sA/XgWm7NnYC3wcder5q2oWecs3kL9iHUuDR+nlX6GXeCr/kP//bxXEJDFepa8pSpNe2XIq
+        cNZtxORdQtWl0zS9ukfxuk0E9rYR7H9I0Qz/pxRDZp/wrBEaHakghlIoSRWnqzFapoRyZ7cwZdVOFv99
+        k8DzGxQ2NiMljX6Xlmx/oVTGnBRn5Qsmf8bUr4AhiEalm5+eUfDSs2Y31R1BnOULw4nxyX2qWPXZqNEn
+        npOE0oRU3wOGIGpV4hyTJf91st76OE6p6o72rY8a5QuljqZWfAZ2q4cC5pBokQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="panelEx2.StyleMouseDown.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAwBJREFUOE9tk2tI
+        k2sAxzd1upWbm5fedBfX1kWdNddKMZfpylJDI82M1jhHz4pKrKygeyF0o6u1SijpqiFWUhR0+1BU3wKp
+        T0VB58Pxgyc661CBUbFfz7uWXR/48/Jc/j/+//d9HwWg+N2IibeVuDKyuo0G+yaxrxeK++3BnwEGnWny
+        CL3tcOtMN082T6XHX0BCwshdwmwUiv0F8hWg1WltdkPxTau27P+dlS44Pw3aS6HDy5XFheFkjeGIMGf8
+        kkQGjEuZ2VYltXLIGuK8HQLGC/Q0ZMMZLwSL6ao145vTyLDhlmA0ybc6MmCidhEnpI90joXTAtA9Cham
+        dlKba+bP0grcLdeouf6asm3X0SVoD0aTfKkjA3I01YMNimu0SSGCpvc06/uoc9fjyhqBq6mXQD80PhLJ
+        nkH+sothnSb90FAdGeAYNk8AblCv7GXZ1JVsazUT/s8jtkppb3Xj2XqX2vtQfA6cHWB2NocFoEIoJZLA
+        ahg3OEu1nRJFF2vdanjqhnAZhMRLHPBwoMqBOfAAxzFwdYJpwvKPwtwiZI8AGu3SYE+hFkvsKlbb0mGe
+        WL6VB1cF4Ph0rtabSa27jfO4MM+/gpRZLQO2CGVHAP5R5k/4FOzJS2TFGAnmiuU6PRyZDqe8XPY50Fga
+        yKncR9OO/ThyS2TAZqGsCKDcaOn/UBvDm8oY0lLG0+VOgqV63u72cCfgxmEZz4L1W2h/9oDLhCiq8P8I
+        SFBLJX5r+sA/XgWm7NnYC3wcder5q2oWecs3kL9iHUuDR+nlX6GXeCr/kP//bxXEJDFepa8pSpNe2XIq
+        cNZtxORdQtWl0zS9ukfxuk0E9rYR7H9I0Qz/pxRDZp/wrBEaHakghlIoSRWnqzFapoRyZ7cwZdVOFv99
+        k8DzGxQ2NiMljX6Xlmx/oVTGnBRn5Qsmf8bUr4AhiEalm5+eUfDSs2Y31R1BnOULw4nxyX2qWPXZqNEn
+        npOE0oRU3wOGIGpV4hyTJf91st76OE6p6o72rY8a5QuljqZWfAZ2q4cC5pBokQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="panelEx3.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="panelEx10.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="PanelEx9.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="Label5.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="panelEx8.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="panelEx7.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="panelEx6.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="panelEx5.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="label4.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="label3.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="label2.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="label1.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="panelEx4.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.DrawGrid" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.Name">
+    <value>Form1</value>
+  </data>
+</root>

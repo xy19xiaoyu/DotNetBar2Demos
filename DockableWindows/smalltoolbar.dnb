@@ -1,0 +1,19 @@
+<dotnetbar fullmenus="false" fullmenushover="true" tooltips="true" scintooltip="false" animation="6">
+  <items />
+  <bars>
+    <bar name="bar1" candockleft="true" candockright="true" candocktop="true" candockbottom="true" text="Solution Explorer Commands" dockline="0" dockoffset="0" grabhandle="0" menubar="false" stretch="false" style="0" state="2" wrapdock="false" wrapfloat="true" dockside="3" visible="true" custom="false" canhide="false" imagesize="0" itemsp="0" layout="0" eqbutton="false">
+      <items>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="item_61" text="&amp;Refresh" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="0" desc="" tooltip="Refresh" category="" cancustomize="true" showsubitems="true" itemalignment="0" stretch="false" global="true" PopupType="0" PopupWidth="200" PersonalizedMenus="0" panim="1" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+          <images imageindex="0" />
+        </item>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="item_239" text="Show All Files" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="true" style="0" desc="" tooltip="Show All Files" category="" cancustomize="true" showsubitems="true" itemalignment="0" stretch="false" global="true" PopupType="0" PopupWidth="200" PersonalizedMenus="0" panim="1" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+          <images imageindex="1" />
+        </item>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="item_299" text="Properties" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="true" style="0" desc="" tooltip="Properties" category="" cancustomize="true" showsubitems="true" itemalignment="0" stretch="false" global="true" PopupType="0" PopupWidth="200" PersonalizedMenus="0" panim="1" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+          <images imageindex="2" />
+        </item>
+      </items>
+    </bar>
+  </bars>
+  <popups />
+</dotnetbar>

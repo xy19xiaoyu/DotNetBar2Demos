@@ -1,0 +1,382 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6163BB9E-77CD-4294-A45F-8728A703F4C2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SuperGridDemo</RootNamespace>
+    <AssemblyName>SuperGridDemo</AssemblyName>
+    <StartupObject>SuperGridDemo.SuperGridDemo.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar.SuperGrid, Version=10.1.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=10.1.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevComponents.Instrumentation, Version=10.1.0.3, Culture=neutral, PublicKeyToken=f90dc37c26666a67, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClipControl.designer.vb">
+      <DependentUpon>ClipControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClipControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DemoBasicFiltering.Designer.vb">
+      <DependentUpon>DemoBasicFiltering.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DemoBasicFiltering.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DemoDragDrop.designer.vb">
+      <DependentUpon>DemoDragDrop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DemoDragDrop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DemoExtendedFiltering.Designer.vb">
+      <DependentUpon>DemoExtendedFiltering.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DemoExtendedFiltering.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DemoGridArchitecture.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DemoGridArchitecture.Designer.vb">
+      <DependentUpon>DemoGridArchitecture.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DemoGridBasics0.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DemoGridBasics0.Designer.vb">
+      <DependentUpon>DemoGridBasics0.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DemoGridBasics1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DemoGridBasics1.Designer.vb">
+      <DependentUpon>DemoGridBasics1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DemoGridBasics2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DemoGridBasics2.Designer.vb">
+      <DependentUpon>DemoGridBasics2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DemoFileExplorer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DemoFileExplorer.Designer.vb">
+      <DependentUpon>DemoFileExplorer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DemoGridBasics3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DemoGridBasics3.Designer.vb">
+      <DependentUpon>DemoGridBasics3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DemoGridBasics4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DemoGridBasics4.Designer.vb">
+      <DependentUpon>DemoGridBasics4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DemoGridBasics5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DemoGridBasics5.Designer.vb">
+      <DependentUpon>DemoGridBasics5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DemoGridBinding.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DemoGridBinding.Designer.vb">
+      <DependentUpon>DemoGridBinding.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DemoMasterDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DemoMasterDetail.Designer.vb">
+      <DependentUpon>DemoMasterDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DemoSpreadsheet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DemoSpreadsheet.Designer.vb">
+      <DependentUpon>DemoSpreadsheet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DemoNested.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DemoNested.Designer.vb">
+      <DependentUpon>DemoNested.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DemoUserEdit.Designer.vb">
+      <DependentUpon>DemoUserEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DemoUserEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DemoVirtualMode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DemoVirtualMode.Designer.vb">
+      <DependentUpon>DemoVirtualMode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FilePathControl.Designer.vb">
+      <DependentUpon>FilePathControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FilePathControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FlowerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlowerForm.Designer.vb">
+      <DependentUpon>FlowerForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GridClipEditControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GridFilePathEditControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GridStateEditControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <EmbeddedResource Include="DemoGridArchitecture.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DemoGridArchitecture.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemoGridBasics0.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DemoGridBasics0.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemoGridBasics1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DemoGridBasics1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemoGridBasics2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DemoGridBasics2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemoFileExplorer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DemoFileExplorer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemoGridBasics3.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DemoGridBasics3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemoGridBasics4.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DemoGridBasics4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemoGridBasics5.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DemoGridBasics5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemoMasterDetail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DemoMasterDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemoSpreadsheet.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DemoSpreadsheet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemoNested.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DemoNested.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemoVirtualMode.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DemoVirtualMode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlowerForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FlowerForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <EmbeddedResource Include="Resources\DemoDragDrop.rtf" />
+    <EmbeddedResource Include="Resources\DemoUserEdit.rtf" />
+    <EmbeddedResource Include="Resources\DemoBasicFiltering.rtf" />
+    <EmbeddedResource Include="Resources\DemoExtendedFiltering.rtf" />
+    <None Include="Resources\NwindDataSet.xsc">
+      <DependentUpon>NwindDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\NwindDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NwindDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Resources\NwindDataSet.xss">
+      <DependentUpon>NwindDataSet.xsd</DependentUpon>
+    </None>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Resources\NwindDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NwindDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ShellServices.vb" />
+    <Compile Include="StateControl.designer.vb">
+      <DependentUpon>StateControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StateControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VCRControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VCRControl.Designer.vb">
+      <DependentUpon>VCRControl.vb</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\BugRight.png" />
+    <EmbeddedResource Include="Resources\BugUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DemoGridBinding.resx">
+      <DependentUpon>DemoGridBinding.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\DemoArchitecture.rtf" />
+    <EmbeddedResource Include="Resources\DemoBasics0.rtf" />
+    <EmbeddedResource Include="Resources\DemoBasics1.rtf" />
+    <EmbeddedResource Include="Resources\DemoBasics2.rtf" />
+    <EmbeddedResource Include="Resources\DemoBasics3.rtf" />
+    <EmbeddedResource Include="Resources\DemoBasics4.rtf" />
+    <EmbeddedResource Include="Resources\DemoBasics5.rtf" />
+    <EmbeddedResource Include="Resources\DemoFileExplorer.rtf" />
+    <EmbeddedResource Include="Resources\DemoGridBinding.rtf" />
+    <EmbeddedResource Include="Resources\DemoMasterDetail.rtf" />
+    <EmbeddedResource Include="Resources\DemoNested.rtf" />
+    <EmbeddedResource Include="Resources\DemoSpreadsheet.rtf" />
+    <EmbeddedResource Include="Resources\DemoVirtualMode.rtf" />
+    <EmbeddedResource Include="Resources\Nwind.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Welcome.rtf" />
+    <EmbeddedResource Include="VCRControl.resx">
+      <DependentUpon>VCRControl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ClipControl.resx">
+      <DependentUpon>ClipControl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemoBasicFiltering.resx">
+      <DependentUpon>DemoBasicFiltering.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemoDragDrop.resx">
+      <DependentUpon>DemoDragDrop.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemoExtendedFiltering.resx">
+      <DependentUpon>DemoExtendedFiltering.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemoUserEdit.resx">
+      <DependentUpon>DemoUserEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilePathControl.resx">
+      <DependentUpon>FilePathControl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Bad Feeling.wav" />
+    <EmbeddedResource Include="Resources\Hump.wav" />
+    <EmbeddedResource Include="Resources\Looking For.wav" />
+    <EmbeddedResource Include="Resources\Oz.wav" />
+    <EmbeddedResource Include="Resources\Terminator.wav" />
+    <EmbeddedResource Include="Resources\The Ritz.wav" />
+    <EmbeddedResource Include="StateControl.resx">
+      <DependentUpon>StateControl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

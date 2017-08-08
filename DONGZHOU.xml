@@ -1,0 +1,11 @@
+<dotnetbarlayout version="6" zorder="3,4,1,2">
+  <docksite size="0" dockingside="Top" originaldocksitesize="0" />
+  <docksite size="0" dockingside="Bottom" originaldocksitesize="0" />
+  <docksite size="0" dockingside="Left" originaldocksitesize="0" />
+  <docksite size="0" dockingside="Right" originaldocksitesize="0" />
+  <bars>
+    <bar name="barMenu" dockline="0" layout="0" dockoffset="0" state="2" dockside="3" visible="true" />
+    <bar name="bar3" dockline="1" layout="0" dockoffset="0" state="2" dockside="3" visible="true" />
+    <bar name="barLocation" dockline="2" layout="0" dockoffset="0" state="2" dockside="3" visible="true" />
+  </bars>
+</dotnetbarlayout>

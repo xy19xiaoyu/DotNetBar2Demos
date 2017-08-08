@@ -1,0 +1,2 @@
+C:\Program Files\Microsoft.NET\FrameworkSDK\Bin\resgen DevComponents.DotNetBar.Strings.de.txt
+C:\windows\Microsoft.NET\Framework\v1.0.2914\al /t:lib /embed:DevComponents.DotNetBar.Strings.de.resources /culture:de /out:DevComponents.DotNetBar.resources.dll

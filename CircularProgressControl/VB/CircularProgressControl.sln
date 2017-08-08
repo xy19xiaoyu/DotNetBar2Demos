@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CircularProgressControl", "CircularProgressControl.vbproj", "{1FDB5D1B-47B9-4522-9279-3FACD19CC11D}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Release2005|Any CPU = Release2005|Any CPU
+		ReleaseTrial|Any CPU = ReleaseTrial|Any CPU
+		ReleaseTrial2005|Any CPU = ReleaseTrial2005|Any CPU
+		ReleaseTrial2005Design|Any CPU = ReleaseTrial2005Design|Any CPU
+		ReleaseTrialNoLimit|Any CPU = ReleaseTrialNoLimit|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FDB5D1B-47B9-4522-9279-3FACD19CC11D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FDB5D1B-47B9-4522-9279-3FACD19CC11D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FDB5D1B-47B9-4522-9279-3FACD19CC11D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FDB5D1B-47B9-4522-9279-3FACD19CC11D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FDB5D1B-47B9-4522-9279-3FACD19CC11D}.Release2005|Any CPU.ActiveCfg = Release|Any CPU
+		{1FDB5D1B-47B9-4522-9279-3FACD19CC11D}.Release2005|Any CPU.Build.0 = Release|Any CPU
+		{1FDB5D1B-47B9-4522-9279-3FACD19CC11D}.ReleaseTrial|Any CPU.ActiveCfg = Release|Any CPU
+		{1FDB5D1B-47B9-4522-9279-3FACD19CC11D}.ReleaseTrial|Any CPU.Build.0 = Release|Any CPU
+		{1FDB5D1B-47B9-4522-9279-3FACD19CC11D}.ReleaseTrial2005|Any CPU.ActiveCfg = Release|Any CPU
+		{1FDB5D1B-47B9-4522-9279-3FACD19CC11D}.ReleaseTrial2005|Any CPU.Build.0 = Release|Any CPU
+		{1FDB5D1B-47B9-4522-9279-3FACD19CC11D}.ReleaseTrial2005Design|Any CPU.ActiveCfg = Release|Any CPU
+		{1FDB5D1B-47B9-4522-9279-3FACD19CC11D}.ReleaseTrial2005Design|Any CPU.Build.0 = Release|Any CPU
+		{1FDB5D1B-47B9-4522-9279-3FACD19CC11D}.ReleaseTrialNoLimit|Any CPU.ActiveCfg = Release|Any CPU
+		{1FDB5D1B-47B9-4522-9279-3FACD19CC11D}.ReleaseTrialNoLimit|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = ..\..\MainSource
+	EndGlobalSection
+EndGlobal

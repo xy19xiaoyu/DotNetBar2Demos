@@ -1,0 +1,21 @@
+<dotnetbar fullmenus="false" fullmenushover="true" tooltips="true" scintooltip="false" animation="6">
+  <items />
+  <bars />
+  <popups>
+    <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bContextMenu" text="bContextMenu" iscontainer="false" visible="false" itemdata="" enabled="true" begingroup="false" style="0" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" stretch="false" global="true" themes="false" PopupType="0" PopupWidth="200" PersonalizedMenus="0" panim="1" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+      <subitems>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bLargeIcons" text="Large Icons" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="0" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" stretch="false" global="true" themes="false" PopupType="0" PopupWidth="200" PersonalizedMenus="0" panim="1" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+          <images>
+            <image type="default">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEAAACxABrSO9dQAAAH5JREFUOE+lkssRgDAIBbEXa0tPqca2vCEQozG/4RlmuIWdJY/tPHZaKgWs9DNMFJkoSEdGgAUgsBYK+RgY4YZ4LRqDBPCv0f0DXQM28A7U78xASrTbLh+PUnLfgK7VSwkAxBySRZ3tAEAyqFMCAO+l/jIYpeQymKXkAsxu5AJPWsAYg7nJNAAAAABJRU5ErkJg</image>
+          </images>
+        </item>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bSmallIcons" text="Small Icons" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="0" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" stretch="false" global="true" themes="false" PopupType="0" PopupWidth="200" PersonalizedMenus="0" panim="1" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+          <images>
+            <image type="default">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEAAACxABrSO9dQAAAHJJREFUOE9j/LFfhYEiADKAEgzWzMAw8z8DQ9p/cgyCGpD2HwRABkG9BGQzgDEhQ1FcQI4rKPI/2LWEnEhInqABhAKYCAPwBzARBkCiGFcAEzSA4jAgyQBCAYbNMBQvgPxJaopEMwAWYJAkTQwmShE+gwDxM7Yzze2iigAAAABJRU5ErkJg</image>
+          </images>
+        </item>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bRemoveItem" text="Remove Item" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="true" style="0" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" stretch="false" global="true" themes="false" PopupType="0" PopupWidth="200" PersonalizedMenus="0" panim="1" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false" />
+      </subitems>
+    </item>
+  </popups>
+</dotnetbar>

@@ -1,0 +1,143 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9A140594-280D-477C-9EF2-92977F241A90}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PropertyGrid</RootNamespace>
+    <AssemblyName>PropertyGrid</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=7.9.9.1, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCategoryStyling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCategoryStyling.Designer.cs">
+      <DependentUpon>FormCategoryStyling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCustomToolbarButtons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCustomToolbarButtons.Designer.cs">
+      <DependentUpon>FormCustomToolbarButtons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPropertyAppearance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPropertyAppearance.Designer.cs">
+      <DependentUpon>FormPropertyAppearance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPropertyValueEditors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPropertyValueEditors.Designer.cs">
+      <DependentUpon>FormPropertyValueEditors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPropertyValuesTranslationMethod1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPropertyValuesTranslationMethod1.Designer.cs">
+      <DependentUpon>FormPropertyValuesTranslationMethod1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPropertyValuesTranslationMethod2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPropertyValuesTranslationMethod2.Designer.cs">
+      <DependentUpon>FormPropertyValuesTranslationMethod2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCategoryStyling.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormCategoryStyling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCustomToolbarButtons.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormCustomToolbarButtons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPropertyAppearance.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormPropertyAppearance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPropertyValueEditors.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormPropertyValueEditors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPropertyValuesTranslationMethod1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormPropertyValuesTranslationMethod1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPropertyValuesTranslationMethod2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormPropertyValuesTranslationMethod2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

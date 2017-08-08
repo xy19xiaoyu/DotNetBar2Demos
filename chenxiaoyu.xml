@@ -1,0 +1,9 @@
+<navbarlayout>
+  <navigationbar height="207">
+    <item index="0" name="buttonItem1" visible="true" checked="false" />
+    <item index="1" name="buttonItem2" visible="true" checked="true" />
+    <item index="2" name="buttonItem3" visible="true" checked="false" />
+    <item index="3" name="buttonItem4" visible="true" checked="false" />
+    <item index="4" name="buttonItem5" visible="true" checked="false" />
+  </navigationbar>
+</navbarlayout>

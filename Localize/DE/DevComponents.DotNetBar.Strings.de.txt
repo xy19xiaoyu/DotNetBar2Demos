@@ -1,0 +1,66 @@
+; Customize Dialog Pop-up Menu Strings
+cust_pm_reset=Reset
+cust_pm_delete=Delete
+cust_pm_name=Name:
+cust_pm_stydef=Default Style
+cust_pm_stytextonly=Text Only (Always)
+cust_pm_styimagetext=Image and Text (Always)
+cust_pm_begingroup=Begin Group
+
+; Customize Dialog Strings
+cust_caption=Customize
+cust_tab_toolbars=Toolbars
+cust_tab_commands=Commands
+cust_tab_options=Options
+cust_btn_keyboard=&Keyboard...
+cust_btn_close=Close
+cust_btn_new=&New...
+cust_btn_rename=&Rename...
+cust_btn_delete=Delete
+cust_btn_reset=&Reset...
+cust_lbl_cmdsins=To add a command to Bar select the category and drag the command out of this box to a Bar.
+cust_lbl_cats=Cate&gories:
+cust_lbl_cmds=Comman&ds:
+cust_lbl_tlbs=Toolb&ars:
+; Options Tab
+cust_lbl_pmt=Personalized Menus and Toolbars
+cust_chk_fullmenus=Always show full menus
+cust_chk_delay=Show full menus after a short delay
+cust_btn_resetusage=&Reset my usage data
+cust_lbl_other=Other:
+cust_chk_showst=Show Screen&Tips on Toolbars
+cust_chk_showsk=Show &Shortcut Keys in ScreenTips
+cust_lbl_menuan=Menu Animation:
+cust_cbo_none=(None)
+cust_cbo_system=System Default
+cust_cbo_random=Random
+cust_cbo_unfold=Unfold
+cust_cbo_slide=Slide
+cust_cbo_fade=Fade
+cust_msg_delete=Are you sure you want to delete the <barname> toolbar?
+
+; CustomizeItem string
+cust_mnu_addremove=&Add or Remove Buttons
+cust_mnu_reset=Reset Bar
+cust_mnu_cust=Customize...
+cust_mnu_tooltip=Bar Options
+
+; New Toolbar Window
+barname_caption=New Toolbar
+barrename_caption=Rename Toolbar
+barname_name=&Toolbar Name:
+barname_ok=OK
+barname_cancel=Cancel
+barname_msginvalidname=Toolbar name cannot be empty.
+
+; MDI System Item Tooltip Text
+mdisystt_minimize=Minimize
+mdisystt_restore=Restore
+mdisystt_close=Close
+mdisysmenu_restore=Restore
+mdisysmenu_move=Move
+mdisysmenu_size=Size
+mdisysmenu_minimize=Minimize
+mdisysmenu_maximize=Maximize
+mdisysmenu_close=Close
+mdisysmenu_next=Next

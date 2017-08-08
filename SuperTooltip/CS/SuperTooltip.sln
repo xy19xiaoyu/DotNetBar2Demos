@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTooltip", "SuperTooltip.csproj", "{C447702A-53F1-47AC-ABFF-8536ADC50ADA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C447702A-53F1-47AC-ABFF-8536ADC50ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C447702A-53F1-47AC-ABFF-8536ADC50ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C447702A-53F1-47AC-ABFF-8536ADC50ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C447702A-53F1-47AC-ABFF-8536ADC50ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
